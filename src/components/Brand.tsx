@@ -1,5 +1,5 @@
 import React from "react";
-import codelco from "../assets/LogosEmpresas/codelco.svg";
+import codelco from "../assets/LogosEmpresas/codelco_1.png";
 import enami from "../assets/LogosEmpresas/enami.png";
 import procesa from "../assets/LogosEmpresas/procesa.png";
 import kinross from "../assets/LogosEmpresas/kinross.png";
@@ -25,7 +25,7 @@ const Brand = () => {
                   data-aos="flip-left"
                   src={codelco}
                   alt="Codelco"
-                  className="max-w-[100px] max-h-[100px]"
+                  className="max-w-[30px] max-h-[30px]"
                 />
               </li>
               <li>
@@ -70,7 +70,7 @@ const Brand = () => {
                   data-aos="flip-left"
                   src={codelco}
                   alt="Codelco"
-                  className="max-w-[100px] max-h-[100px]"
+                  className="max-w-[30px] max-h-[30px]"
                 />
               </li>
               <li>
@@ -115,7 +115,7 @@ const Brand = () => {
                   data-aos="flip-left"
                   src={codelco}
                   alt="Codelco"
-                  className="max-w-[100px] max-h-[100px]"
+                  className="max-w-[30px] max-h-[30px]"
                 />
               </li>
               <li>
