@@ -31,13 +31,13 @@ const Hero = () => {
 
           {/* Descripcion */}
           <p className="mt-10 text-lg text-center text-neutral-400 max-w-4xl py-10">
-            es una empresa líder en ingeniería y proyectos tecnológicos
-            industriales. Nos especializamos en el diseño, desarrollo y
-            ejecución de soluciones innovadoras para optimizar procesos
-            industriales y mejorar la eficiencia operativa. Nuestro equipo de
-            expertos combina experiencia técnica y creatividad para ofrecer
-            resultados de alta calidad que cumplen con los más altos estándares
-            de la industria.
+            Nuestra empresa es una entidad tradicional con 20 años de
+            experiencia trabajando en un portal de licitaciones para la
+            industria minera. Nos especializamos en la venta de productos y el
+            desarrollo de partes y piezas para minería. El éxito en las
+            licitaciones depende principalmente de dos factores: el precio del
+            producto y el tiempo de entrega. Contamos con un reconocimiento
+            significativo en el sector debido a nuestra trayectoria.
           </p>
         </div>
       </div>

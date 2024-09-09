@@ -22,7 +22,7 @@ const Servicios = () => {
             data-aos="fade-right"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
-            className="rounded-l-lg gradient-mask-r-0 h-full object-cover"
+            className="rounded-l-lg gradient-mask-r-0  h-full object-cover"
             src={camionImg}
             alt=""
           />

@@ -3,7 +3,7 @@ import Caracteristicas from "./components/Caracteristicas";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Servicios from "./components/Servicios";
-import Contacto3 from "./components/Contacto3";
+import Contacto from "./components/Contacto";
 import { Footer } from "./components/Footer";
 import Brand from "./components/Brand";
 import React, { useEffect } from "react"; // Asegúrate de que useEffect esté importado
@@ -32,8 +32,9 @@ const App = () => {
       </section>
 
       <Brand />
-
-      <Caracteristicas />
+      <section id="caracteristicas">
+        <Caracteristicas />
+      </section>
 
       <div className="max-w-7xl mx-auto pt-10 px-6">
         <section id="servicios">
@@ -45,7 +46,7 @@ const App = () => {
         <Staff />
       </section>
       <section id="contacto">
-        <Contacto3 />
+        <Contacto />
       </section>
 
       <Footer />

@@ -8,7 +8,7 @@ export function Footer() {
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <a
-            href="https://flowbite.com/"
+            href="#"
             className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
             <img src={logo} className="h-8" alt="Flowbite Logo" />
@@ -24,7 +24,7 @@ export function Footer() {
             </li>
             <li>
               <a href="#" className="hover:underline me-4 md:me-6">
-                Privacy Policy
+                Política de Privacidad
               </a>
             </li>
             <li>
@@ -34,19 +34,32 @@ export function Footer() {
             </li>
           </ul>
         </div>
-        <div className="text-right text-gray-400 py-3 text-sm">
-          <h1>Nuestro horario de Atención</h1>
-          <p>Lunes a jueves 8:30am - 18:00pm </p>
-          <p>Viernes 8:30am - 16:45pm</p>
+        <div className="mt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+          <div className="flex items-center space-x-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-4 w-4"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+              />
+            </svg>
+            <span>Lun-Jue 8:30-18:00 | Vie 8:30-16:45</span>
+          </div>
+          <span>
+            Radal #1015, Quinta Normal | Santiago, Region Metropolitana
+          </span>
+          <p className="mt-4 md:mt-0">
+            &copy; 2024 INGPROTEC. Todos los derechos reservados.
+          </p>
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
-          © 2023{" "}
-          <a href="#" class="hover:underline">
-            INGPROTEC
-          </a>
-          . Todos los derechos reservados.
-        </span>
       </div>
     </footer>
   );

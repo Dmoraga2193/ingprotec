@@ -48,7 +48,7 @@ const Navbar = () => {
           <ul className="hidden lg:flex lg:space-x-12">
             {navItems.map((item, index) => (
               <li key={index}>
-                <a href={item.href} className="hover:text-sky-500">
+                <a href={item.href} className="hover:text-white text-sky-500">
                   {item.label}
                 </a>
               </li>

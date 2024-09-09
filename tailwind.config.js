@@ -8,6 +8,15 @@ export default {
         "custom-red": "0px 4px 6px rgba(255, 0, 0, 0.5)", // sombra roja
         "custom-green": "0px 4px 6px rgba(0, 255, 0, 0.5)", // sombra verde
       },
+      keyframes: {
+        ripple: {
+          "0%": { transform: "scale(0.8)", opacity: 1 },
+          "100%": { transform: "scale(2.4)", opacity: 0 },
+        },
+      },
+      animation: {
+        ripple: "ripple 1s cubic-bezier(0, 0, 0.2, 1) infinite",
+      },
       conteiner: {
         center: true,
         padding: {

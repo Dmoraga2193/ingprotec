@@ -4,6 +4,10 @@ import containerland from "../assets/LogosEmpresas/containerland.svg";
 import imperial from "../assets/LogosEmpresas/imperial.png";
 import sika from "../assets/LogosEmpresas/sika.svg";
 import sodimac from "../assets/LogosEmpresas/sodimac.png";
+import enami from "../assets/LogosEmpresas/enami.png";
+import procesa from "../assets/LogosEmpresas/procesa.png";
+import kinross from "../assets/LogosEmpresas/kinross.png";
+import sierragorda from "../assets/LogosEmpresas/sierragorda.png";
 import "aos/dist/aos.css"; // Importación de los estilos de AOS
 
 const Brand = () => {
@@ -15,10 +19,10 @@ const Brand = () => {
             data-aos="zoom-in-down"
             className=" text-sky-500  h-2 text-sm font-medium uppercase "
           >
-            Nuestros proveedores
+            Nuestros clientes
           </h2>{" "}
           {/* Título agregado */}
-          <div className="flex justify-between items-center gap-6 flex-wrap py-4 px-8 mt-2">
+          <div className="flex justify-between items-center gap-6 flex-wrap py-4 px-11 mx-11 mt-3">
             <img
               data-aos="flip-left"
               src={codelco}
@@ -27,26 +31,26 @@ const Brand = () => {
             />
             <img
               data-aos="flip-right"
-              src={containerland}
-              alt="Containerland"
+              src={enami}
+              alt="enami"
               className="max-w-[100px] max-h-[100px]"
             />
             <img
               data-aos="flip-left"
-              src={imperial}
-              alt="Imperial"
+              src={procesa}
+              alt="procesa"
               className="max-w-[100px] max-h-[100px]"
             />
             <img
               data-aos="flip-right"
-              src={sika}
-              alt="Sika"
+              src={kinross}
+              alt="kinross"
               className="max-w-[100px] max-h-[80px]"
             />
             <img
               data-aos="flip-left"
-              src={sodimac}
-              alt="Sodimac"
+              src={sierragorda}
+              alt="sierragorda"
               className="max-w-[100px] max-h-[100px]"
             />
           </div>
