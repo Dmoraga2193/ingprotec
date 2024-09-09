@@ -1,4 +1,3 @@
-// import Contacto from "./components/Contacto";
 import Caracteristicas from "./components/Caracteristicas";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
