@@ -3,8 +3,8 @@ import bhp from "../assets/LogosEmpresas/bhp.png";
 import codelco from "../assets/LogosEmpresas/codelco_1.png";
 import procesa from "../assets/LogosEmpresas/procesa.png";
 import imperial from "../assets/LogosEmpresas/imperial.png";
-import containerland from "../assets/LogosEmpresas/containerland.svg";
-import sika from "../assets/LogosEmpresas/sika.svg";
+import containerland from "../assets/LogosEmpresas/containerland.png";
+import sika from "../assets/LogosEmpresas/sika.png";
 import sodimac from "../assets/LogosEmpresas/sodimac.png";
 import sqm from "../assets/LogosEmpresas/sqm.png";
 import "aos/dist/aos.css"; // Importación de los estilos de AOS
@@ -44,7 +44,7 @@ const Brand = () => {
                   data-aos="flip-left"
                   src={containerland}
                   alt="containerland"
-                  className="max-w-[30px] max-h-[30px]"
+                  className="max-w-[70px] max-h-[70px]"
                 />
               </li>
               <li>
@@ -68,7 +68,7 @@ const Brand = () => {
                   data-aos="flip-left"
                   src={sika}
                   alt="sika"
-                  className="max-w-[50px] max-h-[50px]"
+                  className="max-w-[70px] max-h-[70px]"
                 />
               </li>
               <li>
@@ -113,7 +113,7 @@ const Brand = () => {
                   data-aos="flip-left"
                   src={containerland}
                   alt="containerland"
-                  className="max-w-[30px] max-h-[30px]"
+                  className="max-w-[70px] max-h-[70px]"
                 />
               </li>
               <li>
@@ -137,7 +137,7 @@ const Brand = () => {
                   data-aos="flip-left"
                   src={sika}
                   alt="sika"
-                  className="max-w-[50px] max-h-[50px]"
+                  className="max-w-[70px] max-h-[70px]"
                 />
               </li>
               <li>
@@ -182,7 +182,7 @@ const Brand = () => {
                   data-aos="flip-left"
                   src={containerland}
                   alt="containerland"
-                  className="max-w-[30px] max-h-[30px]"
+                  className="max-w-[70px] max-h-[70px]"
                 />
               </li>
               <li>
@@ -206,7 +206,7 @@ const Brand = () => {
                   data-aos="flip-left"
                   src={sika}
                   alt="sika"
-                  className="max-w-[50px] max-h-[50px]"
+                  className="max-w-[70px] max-h-[70px]"
                 />
               </li>
               <li>
