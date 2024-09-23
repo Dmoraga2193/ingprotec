@@ -56,9 +56,9 @@ const ContactSection: React.FC = () => {
         className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center mb-12"
       >
         <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wide ">
-          Contac
+          Solicita u
           <span className="bg-gradient-to-r from-green-200 via-sky-500 to-blue-600 text-transparent bg-clip-text">
-            tanos
+            na cotización
           </span>
         </h2>
       </div>
@@ -156,7 +156,7 @@ const ContactSection: React.FC = () => {
           {/* Formulario de contacto */}
           <div className="bg-gray-50 p-5 lg:p-11 lg:rounded-r-2xl rounded-r-2xl">
             <h2 className="text-indigo-600 font-manrope text-4xl font-semibold leading-10 mb-11">
-              Envíanos tu consulta
+              Envíanos tu solicitud
             </h2>
             <form onSubmit={onSubmit}>
               {/* Nombre completo */}
@@ -218,12 +218,16 @@ const ContactSection: React.FC = () => {
                   required
                 />
               </div>
+              <p className="italic font-manrope text-gray-500 leading-7 mb-10">
+                Podrás adjuntar los archivos en la respuesta que te enviaremos a
+                tu solicitud por correo.
+              </p>
               {/* Boton enviar consulta */}
               <button
                 className="w-full h-12 text-white text-base font-semibold leading-6 rounded-full transition-all duration-700 hover:bg-indigo-800 bg-indigo-600 shadow-sm"
                 type="submit"
               >
-                Enviar consulta
+                Enviar solicitud
               </button>
             </form>
           </div>

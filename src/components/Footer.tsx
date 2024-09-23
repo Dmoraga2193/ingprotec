@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import logo from "../assets/logo.png";
 
-export function Footer() {
+const Footer: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const openModal = () => setIsModalOpen(true);
@@ -189,4 +189,6 @@ export function Footer() {
       )}
     </>
   );
-}
+};
+
+export default Footer;

@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Servicios from "./components/Servicios";
 import Contacto from "./components/Contacto";
-import { Footer } from "./components/Footer";
+import Footer from "./components/Footer";
 import Brand from "./components/Brand";
 import React, { useEffect } from "react"; // Asegúrate de que useEffect esté importado
 import "animate.css"; // Importación de animate.css
@@ -41,9 +41,9 @@ const App = () => {
         </section>
       </div>
 
-      <section id="staff">
+      {/* <section id="staff">
         <Staff />
-      </section>
+      </section> */}
       <section id="contacto">
         <Contacto />
       </section>

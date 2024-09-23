@@ -23,7 +23,7 @@ const Caracteristicas = () => {
               data-aos="zoom-in-down"
               className="bg-neutral-900 text-sky-500 rounded-full h-6 text-sm font-medium px-2 py-1 uppercase "
             >
-              CARACTERÍSTICAS
+              NUESTRAS CARACTERÍSTICAS
             </span>
             <h2
               data-aos="fade-down"

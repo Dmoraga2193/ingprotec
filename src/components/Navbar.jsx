@@ -16,9 +16,7 @@ const Navbar = () => {
           <div className="flex items-center flex-shrink-0">
             {/* Logo empresa en Navbar */}
             <img className="h-10 w-20 mr-5 rounded-lg" src={logo} alt="logo" />
-            <span className="text-xl tracking-tight text-white">
-              Ing Protec
-            </span>
+            <span className="text-xl tracking-tight text-white">INGPROTEC</span>
           </div>
 
           {/* Botón de hamburguesa para pantallas pequeñas */}
