@@ -1,9 +1,12 @@
 import React from "react";
+import bhp from "../assets/LogosEmpresas/bhp.png";
 import codelco from "../assets/LogosEmpresas/codelco_1.png";
-import enami from "../assets/LogosEmpresas/enami.png";
 import procesa from "../assets/LogosEmpresas/procesa.png";
-import kinross from "../assets/LogosEmpresas/kinross.png";
-import sierragorda from "../assets/LogosEmpresas/sierragorda.png";
+import imperial from "../assets/LogosEmpresas/imperial.png";
+import containerland from "../assets/LogosEmpresas/containerland.svg";
+import sika from "../assets/LogosEmpresas/sika.svg";
+import sodimac from "../assets/LogosEmpresas/sodimac.png";
+import sqm from "../assets/LogosEmpresas/sqm.png";
 import "aos/dist/aos.css"; // Importación de los estilos de AOS
 
 const Brand = () => {
@@ -31,8 +34,24 @@ const Brand = () => {
               <li>
                 <img
                   data-aos="flip-right"
-                  src={enami}
-                  alt="enami"
+                  src={bhp}
+                  alt="bhp"
+                  className="max-w-[30px] max-h-[30px]"
+                />
+              </li>
+              <li>
+                <img
+                  data-aos="flip-left"
+                  src={containerland}
+                  alt="containerland"
+                  className="max-w-[30px] max-h-[30px]"
+                />
+              </li>
+              <li>
+                <img
+                  data-aos="flip-right"
+                  src={imperial}
+                  alt="imperial"
                   className="max-w-[30px] max-h-[30px]"
                 />
               </li>
@@ -41,23 +60,31 @@ const Brand = () => {
                   data-aos="flip-left"
                   src={procesa}
                   alt="procesa"
-                  className="max-w-[30px] max-h-[30px]"
-                />
-              </li>
-              <li>
-                <img
-                  data-aos="flip-right"
-                  src={kinross}
-                  alt="kinross"
-                  className="max-w-[30px] max-h-[30px]"
+                  className="max-w-[50px] max-h-[50px]"
                 />
               </li>
               <li>
                 <img
                   data-aos="flip-left"
-                  src={sierragorda}
-                  alt="sierragorda"
-                  className="max-w-[30px] max-h-[30px]"
+                  src={sika}
+                  alt="sika"
+                  className="max-w-[50px] max-h-[50px]"
+                />
+              </li>
+              <li>
+                <img
+                  data-aos="flip-left"
+                  src={sodimac}
+                  alt="sodimac"
+                  className="max-w-[50px] max-h-[50px]"
+                />
+              </li>
+              <li>
+                <img
+                  data-aos="flip-left"
+                  src={sqm}
+                  alt="sqm"
+                  className="max-w-[50px] max-h-[50px]"
                 />
               </li>
             </ul>
@@ -76,8 +103,24 @@ const Brand = () => {
               <li>
                 <img
                   data-aos="flip-right"
-                  src={enami}
-                  alt="enami"
+                  src={bhp}
+                  alt="bhp"
+                  className="max-w-[30px] max-h-[30px]"
+                />
+              </li>
+              <li>
+                <img
+                  data-aos="flip-left"
+                  src={containerland}
+                  alt="containerland"
+                  className="max-w-[30px] max-h-[30px]"
+                />
+              </li>
+              <li>
+                <img
+                  data-aos="flip-right"
+                  src={imperial}
+                  alt="imperial"
                   className="max-w-[30px] max-h-[30px]"
                 />
               </li>
@@ -86,23 +129,31 @@ const Brand = () => {
                   data-aos="flip-left"
                   src={procesa}
                   alt="procesa"
-                  className="max-w-[30px] max-h-[30px]"
-                />
-              </li>
-              <li>
-                <img
-                  data-aos="flip-right"
-                  src={kinross}
-                  alt="kinross"
-                  className="max-w-[30px] max-h-[30px]"
+                  className="max-w-[50px] max-h-[50px]"
                 />
               </li>
               <li>
                 <img
                   data-aos="flip-left"
-                  src={sierragorda}
-                  alt="sierragorda"
-                  className="max-w-[30px] max-h-[30px]"
+                  src={sika}
+                  alt="sika"
+                  className="max-w-[50px] max-h-[50px]"
+                />
+              </li>
+              <li>
+                <img
+                  data-aos="flip-left"
+                  src={sodimac}
+                  alt="sodimac"
+                  className="max-w-[50px] max-h-[50px]"
+                />
+              </li>
+              <li>
+                <img
+                  data-aos="flip-left"
+                  src={sqm}
+                  alt="sqm"
+                  className="max-w-[50px] max-h-[50px]"
                 />
               </li>
             </ul>
@@ -121,8 +172,24 @@ const Brand = () => {
               <li>
                 <img
                   data-aos="flip-right"
-                  src={enami}
-                  alt="enami"
+                  src={bhp}
+                  alt="bhp"
+                  className="max-w-[30px] max-h-[30px]"
+                />
+              </li>
+              <li>
+                <img
+                  data-aos="flip-left"
+                  src={containerland}
+                  alt="containerland"
+                  className="max-w-[30px] max-h-[30px]"
+                />
+              </li>
+              <li>
+                <img
+                  data-aos="flip-right"
+                  src={imperial}
+                  alt="imperial"
                   className="max-w-[30px] max-h-[30px]"
                 />
               </li>
@@ -131,23 +198,31 @@ const Brand = () => {
                   data-aos="flip-left"
                   src={procesa}
                   alt="procesa"
-                  className="max-w-[30px] max-h-[30px]"
-                />
-              </li>
-              <li>
-                <img
-                  data-aos="flip-right"
-                  src={kinross}
-                  alt="kinross"
-                  className="max-w-[30px] max-h-[30px]"
+                  className="max-w-[50px] max-h-[50px]"
                 />
               </li>
               <li>
                 <img
                   data-aos="flip-left"
-                  src={sierragorda}
-                  alt="sierragorda"
-                  className="max-w-[30px] max-h-[30px]"
+                  src={sika}
+                  alt="sika"
+                  className="max-w-[50px] max-h-[50px]"
+                />
+              </li>
+              <li>
+                <img
+                  data-aos="flip-left"
+                  src={sodimac}
+                  alt="sodimac"
+                  className="max-w-[50px] max-h-[50px]"
+                />
+              </li>
+              <li>
+                <img
+                  data-aos="flip-left"
+                  src={sqm}
+                  alt="sqm"
+                  className="max-w-[50px] max-h-[50px]"
                 />
               </li>
             </ul>
